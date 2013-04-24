@@ -1,0 +1,14 @@
+name: TNTracker
+main: io.github.techietotoro.TNTracker.TNTracker
+version: 0.1.5
+commands:
+   tracker add:
+      description: Track placement of a block type.
+      usage: /track add [Block ID] [Optional Block Data]
+      permission: TNTracker.add
+      permission-message: You don't have <permission>
+   tracker remove:
+      description: Stop tracking a block.
+      usage: /track remove [Block ID] [Optional Block Data]
+      permission: TNTracker.remove
+      permission-message: You don't have <permission>
